@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Lab2_1" parent="Theme.AppCompat.DayNight">
+        <item name="colorControlActivated">#FF7FCFE8</item>
+    </style>
+</resources>

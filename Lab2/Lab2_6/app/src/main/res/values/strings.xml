@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">23521360_PNThSon_Lab2_6</string>
+    <string name="name">Name:</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="promotion">Promotion</string>
+    <string name="add">Add a new dish</string>
+    <string name="added">Added successfully</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">23521360_PNThSon_Lab2_4</string>
+    <string name="title">Quản lý nhân viên</string>
+    <string name="label_id">Mã NV:</string>
+    <string name="label_name">Tên NV:</string>
+    <string name="label_type">Loại NV:</string>
+    <string name="full_time">Chính thức</string>
+    <string name="part_time">Thời vụ</string>
+    <string name="add">Nhập NV</string>
+</resources>

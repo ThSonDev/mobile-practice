@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView android:text="@string/name" />
+            <EditText
+                android:id="@+id/et_name"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/thumbnail" />
+            <Spinner
+                android:id="@+id/sp_thumbnail"
+                android:spinnerMode="dialog" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/promotion" />
+            <CheckBox android:id="@+id/cb_promotion" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/add" />
+
+    <GridView
+        android:id="@+id/gv_dish"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="1dp"
+        android:numColumns="2"
+        android:verticalSpacing="1dp" />
+
+</LinearLayout>

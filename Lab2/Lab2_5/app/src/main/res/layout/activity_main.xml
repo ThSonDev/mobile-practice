@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView android:text="@string/id" />
+            <EditText
+                android:id="@+id/et_id"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/full_name" />
+            <EditText
+                android:id="@+id/et_full_name"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/is_manager" />
+            <CheckBox android:id="@+id/cb_manager" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/add" />
+
+    <ListView
+        android:id="@+id/lv_employee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" />
+
+</LinearLayout>
